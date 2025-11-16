@@ -1,0 +1,28 @@
+export const SOCIAL_MEDIA_PLATFORMS = [
+  'LINE',
+  'X（旧Twitter）',
+  'Instagram',
+  'Facebook',
+  'YouTube',
+  'TikTok',
+  'ニコニコ動画',
+  '5ちゃんねる',
+  'Yahoo!知恵袋',
+  'OKWAVE',
+  'Discord',
+  'Slack',
+  'Pinterest',
+  'pixiv',
+  'note',
+  'mixi',
+  'Threads',
+  'BeReal',
+  'Lemon8',
+  'Bluesky',
+  'mixi2',
+  'Pococha',
+  'Clubhouse',
+  'Stand.fm',
+] as const;
+
+export type SocialMediaPlatform = typeof SOCIAL_MEDIA_PLATFORMS[number];
